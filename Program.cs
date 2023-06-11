@@ -1,4 +1,4 @@
-﻿/*
+﻿
 //Программа который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 Console.WriteLine("Введите число А: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
@@ -6,12 +6,13 @@ Console.WriteLine("Введите число B: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Число А в натуральной степене В =  " + Math.Pow(numberA, numberB));
-*/
 
 
+/*
 //Программа, которая принимает на вход число и выдаёт сумму цифр в числе.
 Console.Write("Введите  число: ");
-var Number = Convert.ToInt32(Console.ReadLine());
+string? numb = Console.ReadLine();
+int Number = Convert.ToInt32(numb);
 
 int sum = 0;
 int i = 0;
@@ -23,6 +24,8 @@ Number = Number /10;
 }
 
   Console.WriteLine(sum );
+*/
+
 
 
 
